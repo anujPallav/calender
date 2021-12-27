@@ -45,7 +45,7 @@ class Window(QWidget):
         self.day_m_label.setText(self.day_m)
         self.day_m_label.move(280,0)
         
-        
+        self.setWindowIcon(QIcon('./calander.png'))
         self.setLayout(self.grid_layout)
         self.setFixedSize(400, 300)
         self.show()
